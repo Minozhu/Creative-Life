@@ -1,0 +1,99 @@
+@charset "utf-8";
+.channel_banner{
+	line-height: 134px;
+	background-image: url(../images/20150826184547532.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.channel_banner .n{
+	display: block;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+}
+.channel_hd{
+	height: 50px;
+	line-height: 50px;
+	padding-top: 10px;
+ 	margin-bottom: 40px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.wrap{
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.wrap h2{
+	font-size: 24px;
+	color: #555;
+	float: left;
+	font-weight: normal;
+}
+.breadCrumbs,.breadCrumbs a{
+	color: #DACFCF;
+}
+.breadCrumbs{
+	float: right;
+}
+.channel_bd .image{
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;	
+	margin-bottom: 20px;
+}
+.channel_n{
+	text-align: center;
+	margin-bottom: 20px;
+	height: 65px;
+}
+.channel_n h3{
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+.channel_n span{
+	display: block;
+	text-align: center;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #555;
+}
+
+.row{
+	width: 102%;
+}
+.row>.span-6{
+	width: 48%;
+}
+.row>[class*="span-"]{
+	float: left;
+	margin-right: 2%;
+}
+.text-1{
+	height: 198px;
+	line-height: 2;
+	font-size: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #9f9f9f;
+	padding-top: 10px; 
+}
+.text-2{
+	line-height: 1.5;
+	padding: 15px 0 15px 55px;
+	position: relative;
+	font-size: 15px;
+	border-bottom: 1px dotted #9f9f9f;
+	margin-bottom: 30px;
+}
+.text-2>span{
+	font-weight: bold;
+	height: auto;
+	line-height: 1.2;
+	position: absolute;
+	left: 13px;
+	top: 18px;
+	width: 30px;
+	font-size: 24px;
+	text-align: center;
+}

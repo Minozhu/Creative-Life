@@ -1,0 +1,373 @@
+@charset "utf-8";
+
+.erweima{
+	position: absolute;
+	left: 405px;
+	top: 386px;
+	z-index: 99;
+}
+.vip{
+	position: absolute;
+	left: 819px;
+	top: 386px; 
+	z-index: 99;
+}
+.about{
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: Arial;
+	color: #555;
+}
+.xyjs{
+	font-size: 27px;
+	font-weight: normal;
+	line-height: 1.3;
+	color: #555;
+}
+.xinyi{
+	color: #edbc00;
+	font-weight: normal;
+}
+.main-main{
+	position: relative;
+}
+.little-title{
+	width: 261px;
+	height: 70px;
+	text-align: center;
+	background: url(../images/i_titlebg.png) bottom no-repeat;
+	margin: 0 auto 30px;
+	// transform: translate3d(0px,0px,0px);	
+	opacity: 1;
+	position: absolute;
+	left: 543px;
+	top: 5px;
+}
+.main-main .content{
+	width: 1000px;
+	height: 135px;
+	color: #555;
+	font-size: 15px;
+	line-height: 1.8;
+	text-align: center;
+	position: absolute;
+	left: 178px;
+	bottom: 30px;
+}
+.main-line{
+	position: absolute;
+	left: 92px;
+	bottom: 0;
+}
+.bg01{
+	height: 230px;
+	background: url(../images/bigbg02.jpg) center top no-repeat;
+	background-attachment: fixed;
+}
+.min .hd{
+	width: 261px;
+	height: 70px;
+	background: url(../images/i_titlebg.png) bottom no-repeat;
+	margin: 0 auto 30px;
+	text-align: center;
+	/*opacity: 1;*/
+}
+.min .en{
+	display: block;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: Arial;
+	color: #555;
+}
+.min .imp{
+	color: #edbc00;
+}
+.min .n{
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 1.3;
+	color: #555;
+}
+.min .box{
+	padding-top: 70px;
+}
+.wrap{
+	/*max-width: 1000px;*/
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*-----------------心意服务----------------------*/
+.main-two,.main-four{
+	background-image: url(../images/gezi.png);
+}
+.main-three{
+	background: url(../images/bigbg01.jpg) center top no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 40px;
+	width: 100%;
+	height: 600px;
+}
+.main-two .box{
+	background: url(../images/i_line02.png) no-repeat;
+}
+.links ul{
+	display: block;
+	margin-left: 205px;
+}
+.links ul li a{
+	width: 142px;
+	height: 198px;
+	display: block;
+	text-align: center;
+	float: left;
+	padding: 0 28px;
+}
+.links{
+	height: 535px;
+	font-size: 13px;
+	line-height: 1.8
+	color: #555;
+}
+.links .si{
+	display: block;
+	width: 142px;
+	height: 142px;
+	background: url(../images/ibtn02_img.png);
+	overflow: hidden;
+	margin-bottom: 10px;
+	transition: all 0.3s ease;
+}
+.links .si01 .si{
+	background-position: 0 0;
+}
+.links .si01 .si:hover{	
+	background-position: 0 -142px;
+}
+.links .si02 .si{
+	background-position: -142px 0;
+}
+.links .si02 .si:hover{
+	background-position: -142px -142px;
+}
+.links .si03 .si{
+	background-position: -284px 0;
+}
+.links .si03 .si:hover{
+	background-position: -284px -142px;
+}
+.links .si04 .si{
+	background-position: -426px 0;
+}
+.links .si04 .si:hover{
+	background-position: -426px -142px;
+}
+.links .si05 .si{
+	background-position: -568px 0;
+}
+.links .si05 .si:hover{
+	background-position: -568px -142px;
+}
+.links .content{
+	width: 1000px;
+	height: 145px;
+	background: url(../images/i_line02_1.png) no-repeat;
+	color: #8F8F8F;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 270px;	
+	text-align: center;
+	position: relative;
+}
+.links .content p{
+	position: absolute;
+	margin-left: 190px;
+	margin-top: 90px;
+}
+.main-two .wrap{
+	position: relative;
+}
+.little-people{
+	width: 80px;
+	position: absolute;
+	right: 350px;
+	bottom: 1354px;
+}
+.main-three .en{
+	display: block;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: Arial;
+	color: #fff;
+}
+.main-three .imp{
+	color: #edbc00;
+}
+.main-three .wrap .n{
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 1.3;
+	color: #fff;
+}
+.main-three .hd{
+	width: 261px;
+	height: 70px;
+	background: url(../images/i_titlebg_white.png) bottom no-repeat;
+	margin: 0 auto 30px;
+	text-align: center;
+	position: absolute;
+	left: 545px;
+	top: -20px;
+	opacity: 1;
+}
+.main-three{
+	position: relative;
+}
+.main-three .tab-hd{
+	width: 1000px;
+	height: 40px;
+	position: absolute;
+	top: 185px;
+}
+.main-three .tab-hd ul{
+	width: 396px;
+	height: 40px;
+	margin-left: 475px;
+}
+.main-three .tab-hd li.tab-act{
+	color: #fff;
+	background-color: #FFBA01;
+}
+.main-three .tab-hd li.tab-zx{
+	color: #FFBA01;
+}
+.main-three .tab-hd li{
+	width: 150px;
+	height: 39px;
+	line-height: 39px;
+	font-size: 20px;
+	border: 1px solid #FFBA01;
+	border-radius: 5px;
+	float: left;
+	margin: 0 23px;
+	cursor: pointer;
+	text-align: center;
+}
+/*最新资讯 最新活动*/
+.main-three .tab-c{
+	width: 1000px;
+	height: 360px;
+}
+.main-three .ins{
+	width: 300px;
+	height: auto;
+	float: left;	
+	overflow: hidden;
+	border-radius: 5px;
+	margin: 65px 193px;
+	position: absolute;
+	top: 202px;
+	background: rgba(255,186,1,.20);
+}
+.main-three .ins02{
+	display: none;
+}
+.main-three .ins02 .pic02{
+	width: 300px;
+	height: 180px;
+}
+.main-three .ins .n{
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-weight: bolder;
+	margin: 0 20px;
+}
+.main-three .ins .content{
+	font-size: 14px;
+	height: 72px;
+	line-height: 24px;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+	margin: 10px 20px;
+	font-weight: bold;
+}
+.main-three .ins:hover{
+	background-color: #FEB900;
+}
+
+
+.main-four .box{
+	background: url(../images/ipart4bg.png) center top no-repeat;
+	height: 539px;
+}
+.main-four .content{
+	height: 65px;
+	line-height: 54px;
+	text-align: center;
+	font-size: 18px;
+	color: #8f8f8f;
+}
+.boy{
+	width: 97px;
+	height: 154px;
+	position: absolute;
+	left: 50%;
+	margin-left: -580px;
+	bottom: 108px;
+	transition: all 0.3s ease;
+}
+.boy:hover{
+	left: 52%;
+}
+.boxs{
+	padding-left: 10px;
+	width: 1000px;
+	margin-left: 175px;
+}
+.boxs li{
+	width: 151px;
+	float: left;
+	margin-left: 73px;
+}
+.boxs .bi{
+	display: inline-block;
+	width: 151px;
+	height: 151px;
+	background: url(../images/ipart04_img.png) no-repeat;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+.boxs .bi01{
+	background-position: 0 0;
+}
+.boxs .bi01:hover{
+	background-position: 0 -151px;
+}
+.boxs .bi02{
+	background-position: -302px 0;
+	margin-top: 56px;
+}
+.boxs .bi02:hover{
+	background-position: -302px -151px;
+}
+.boxs .bi03{
+	background-position: -151px 0;
+}
+.boxs .bi03:hover{
+	background-position: -151px -151px;
+}
+.boxs .bi04{
+	background-position: -453px 0;
+	margin-top: 56px;
+}
+.boxs .bi04:hover{
+	background-position: -453px -151px;
+}
